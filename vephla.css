@@ -1,0 +1,298 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: 0.125rem solid black; */
+}
+
+.top {
+    background: url(images/vephla-top-bg.jpg)no-repeat center center/cover;
+    width: 100%;
+    height: 56.25rem;
+    /* position: fixed; */
+    /* z-index: 1000; */
+}
+
+.overlay {
+    position: absolute;
+    /* border: 0.188rem solid white; */
+    width: 100%;
+    height: 56.25rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(59, 64, 68, 0.904);
+    z-index: 0;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 3rem; */
+    width: 100%;
+    padding-left: 14%;
+}
+
+.navbar img {
+    width: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.625rem 1.313rem;
+    font-family: 'Segoe UI';
+    font-size: 1.188rem;
+}
+
+.navbar button {
+    padding: 0.913rem 1.288rem;
+    border-radius: 1.25rem;
+    border: none;
+    background-color: rgb(130, 130, 216);
+    color: white;
+    font-weight: 700;
+    font-size: 0.625rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+.navbar button:hover {
+    background-color: rgb(15, 15, 207);
+    transition: all .8s ease;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    display: none;
+}
+
+.txt-container {
+    display: flex;
+    justify-content: center;
+    padding: 23.8% 10%;
+    position: relative;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid white; */
+}
+
+.topTxt {
+    width: 56.25rem;
+}
+
+.topTxt h1 {
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.topTxt p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    line-height: 1.869rem;
+    margin-bottom: 1.5rem;
+    width: 72%;
+}
+
+.topTxt button {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: 0.75rem;
+    font-weight: bold;
+    background-color: rgb(77, 77, 206);
+    border: none;
+    border-radius: 3.125rem;
+    padding: 1rem 3rem;
+    transition: all .8s ease;
+}
+
+.topTxt button:hover {
+    background-color: rgb(49, 37, 226);
+}
+
+.signUp {
+    background-color: white;
+    height: 19rem;
+    width: 58%;
+    border-radius: 0.563rem;
+}
+
+.signUp h3 {
+    font-family: arial;
+    font-size: 1.5rem;
+    margin-bottom: 0.525rem;
+}
+
+.signUp input {
+    font-family: arial;
+    font-size: 0.938rem;
+    padding: 0.938rem;
+    outline: none;
+}
+
+#emailAdd, #password, #re-type {
+    /* position: absolute; */
+    height: 2.938rem;
+    width: 22.813rem;
+    margin-bottom: 0.938rem;
+}
+
+.signUp form {
+    padding: 30px 20px;
+}
+
+.signUp button {
+    color: white;
+    font-family: 'Segoe UI';
+    background-color: rgb(115, 107, 219);
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.938rem 1.875rem;
+    margin-top: 1.063rem;
+    border: none;
+    border-radius: 3.125rem;
+    transition: all .8s ease;
+}
+
+.signUp button:hover {
+    background-color: rgb(84, 74, 228);
+}
+
+.courses h1 {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(121, 113, 234);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    /* z-index: 1; */
+}
+
+.blueBg {
+    position: relative;
+    width: 100%;
+    height: 23.25rem;
+    background-color: rgb(121, 113, 234);
+}
+
+.course-cards-container {
+    position: relative;
+    top: -8rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 0px 9%;
+}
+
+.ux-ui, .fullstack {
+    width: 21rem;
+    height: 41.875rem;
+    border-bottom: 0.125rem solid rgb(202, 199, 199);
+}
+
+.ux-ui, .projMgt {
+    transition: all .6s ease;
+    border-bottom: 0.125rem solid rgb(202, 199, 199);
+}
+
+.ux-ui:hover, .projMgt:hover, .fullstack:hover {
+    transform: translateY(-10px);
+    transition: all .6s ease;
+    box-shadow: 0 0 1.25rem grey;
+}
+
+.ux-ui img, .projMgt img, .fullstack img {
+    width: 20.875rem;
+}
+
+.ux-uiTxt h5, .projMgtTxt h5, .fullstackTxt h5 {
+    font-family: 'Segoe UI';
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.9rem;
+    margin-left: 1.375rem;
+}
+
+.duration {
+    margin-left: 0.938rem;
+}
+
+.ux-uiTxt p, .projMgtTxt p, .fullstackTxt p {
+    color: rgb(128, 128, 128);
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    line-height: 1.869rem;
+    margin-bottom: 1rem;
+    margin-left: 1.375rem;
+    /* border: 0.063rem solid black; */
+}
+
+.ux-uiTxt p a, .fullstackTxt p a, .projMgtTxt p a{
+    color: rgb(112, 105, 216);
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.bottomTxt {
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+    padding: 2rem 2rem;
+}
+
+.bottomTxt2{
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+    padding: 0.1rem 2rem;
+}
+
+.bottomTxt3{
+    display: flex;
+    width: 100%;
+    gap: 6rem;
+    padding: 0.9rem 2rem;
+}
+
+.students, .students2, .students3 {
+    color: rgb(128, 128, 128);
+}
+
+.messages {
+    border-left: 0.063rem solid rgb(224, 221, 221);
+    padding-left: 1.563rem;
+    padding-right: 2.063rem;
+    padding-bottom: 1.063rem;
+    /* padding-top: 1.25rem; */
+    color: rgb(128, 128, 128);
+}
+
+.messages2, .messages3 {
+    border-left: 0.063rem solid rgb(224, 221, 221);
+    padding-left: 1.563rem;
+}

@@ -1,0 +1,77 @@
+@media(max-width: 1198px) {
+    .navbar {
+        padding: 20px 29px;
+    }
+
+    .topTxt p{
+        width: 80%;
+    }
+
+    .txt-container {
+        padding: 23.8% 3%;
+    }
+}
+
+@media(max-width:990px) {
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-btn {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 90%;
+        right: -90%;
+        background-color: white;
+        width: 30.2vw;
+        height: 31vh;
+        align-items: flex-start;
+        transition: all .8s ease;
+}
+
+    .nav-btn ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-btn ul li a{
+        color: black;
+        line-height: 3rem;
+    }
+
+    .nav-btn button {
+        margin-bottom: 30px;
+        margin-left: 1.4rem;
+    }
+
+    .nav-btn.open {
+        right: 0%;
+    }
+
+    .txt-container {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 18% 13%;
+    }
+
+    .topTxt {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+    .topTxt p {
+        width: 100%;
+    }
+
+    .signUp {
+        width: 100%;
+        padding: 10px 3%;
+    }
+
+    #emailAdd, #password {
+        width: 93.6%;
+    }
+}
