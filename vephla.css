@@ -213,6 +213,10 @@
     border-bottom: 0.125rem solid rgb(202, 199, 199);
 }
 
+.fullstack {
+    transition: all .6s ease;
+}
+
 .ux-ui, .projMgt {
     transition: all .6s ease;
     border-bottom: 0.125rem solid rgb(202, 199, 199);
@@ -270,13 +274,15 @@
     width: 100%;
     gap: 6rem;
     padding: 0.1rem 2rem;
+    margin-top: 4rem;
 }
 
 .bottomTxt3{
     display: flex;
     width: 100%;
     gap: 6rem;
-    padding: 0.9rem 2rem;
+    padding: 0rem 2rem;
+    margin-top: 3.4rem;
 }
 
 .students, .students2, .students3 {
@@ -295,4 +301,5 @@
 .messages2, .messages3 {
     border-left: 0.063rem solid rgb(224, 221, 221);
     padding-left: 1.563rem;
+    color: rgb(128, 128, 128);
 }
