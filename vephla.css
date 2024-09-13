@@ -376,3 +376,22 @@
     /* text-wrap: wrap; */
     width: 83%;
 }
+
+.courseBtns {
+    width: 100%;
+    text-align: center;
+}
+
+.courseBtns button {
+    background-color: rgb(84, 74, 228);
+    font-size: 0.75rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.188rem;
+    padding: 0.875rem 1.875rem;
+}
+
+.courseBtns button:hover {
+    background-color: rgb(39, 26, 230);
+}
