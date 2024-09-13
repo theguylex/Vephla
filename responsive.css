@@ -27,13 +27,15 @@
         background-color: white;
         width: 30.2vw;
         height: 31vh;
-        align-items: flex-start;
+        align-items: left;
         transition: all .8s ease;
 }
 
     .nav-btn ul {
         display: flex;
         flex-direction: column;
+        position: relative;
+        right: 8rem;
     }
 
     .nav-btn ul li a{
@@ -43,7 +45,9 @@
 
     .nav-btn button {
         margin-bottom: 30px;
-        margin-left: 1.4rem;
+        /* margin-left: 1.4rem; */
+        position: relative;
+        right: 8rem;
     }
 
     .nav-btn.open {
@@ -73,5 +77,97 @@
 
     #emailAdd, #password {
         width: 93.6%;
+    }
+}
+
+@media(max-width:862px) {
+    .nav-btn ul {
+        position: relative;
+        right: 6rem;
+    }
+
+    .nav-btn button {
+        right: 6rem;
+    }
+}
+
+@media(max-width:686px) {
+    .nav-btn ul {
+        right: 4rem;
+    }
+
+    .nav-btn button {
+        right: 4rem;
+    }
+}
+
+
+@media(max-width:582px) {
+    .navbar {
+        padding-right: 14%;
+    }
+
+    .nav-btn {
+        width: 40%;
+    }
+}
+
+@media(max-width:528px) {
+    .navbar {
+        padding-right: 20%;
+    }
+
+    .nav-btn {
+        width: 50%;
+    }
+}
+
+@media(max-width:492px) {
+    .navbar {
+        padding-right: 24%;
+    }
+
+    .nav-btn {
+        width: 50%;
+    }
+
+    .nav-btn ul {
+        right: 7rem;
+    }
+
+    .nav-btn button {
+        right: 7.6rem;
+    }
+}
+
+@media(max-width:468px) {
+    .navbar {
+        padding-right: 30%;
+    }
+
+    .nav-btn {
+        width: 60%;
+    }
+}
+
+@media(max-width:430px) {
+    .navbar {
+        padding-right: 35%;
+    }
+}
+
+@media(max-width:414px) {
+    .navbar {
+        padding-right: 40%;
+    }
+}
+
+@media(max-width:412px) {
+    .nav-btn ul {
+        right: 9.5rem;
+    }
+
+    .nav-btn button {
+        right: 9.5rem;
     }
 }
