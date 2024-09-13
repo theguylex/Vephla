@@ -380,6 +380,10 @@
 .courseBtns {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .courseBtns button {
@@ -394,4 +398,79 @@
 
 .courseBtns button:hover {
     background-color: rgb(39, 26, 230);
+}
+
+.scholarships {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.scholarships h2 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 3rem;
+    font-family: 'Segoe UI';
+    line-height: 3.6rem;
+}
+
+.schPara{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    color: rgb(128, 128, 128);
+    line-height: 1.869rem;
+    margin-bottom: 1rem;
+}
+
+.vTech {
+    /* width: 40%; */
+    display: flex;
+    /* padding: 10% 2%; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.vTechImg img {
+    height: 55.7%;
+    border: 1px solid black;
+}
+
+.vTechTxt {
+    width: 27%;
+    border: 1px solid black;
+    /* height: 10%; */
+}
+
+.vTechTxt h1 {
+    font-family: 'Segoe UI';
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.vTechTxt p {
+    font-family: 'Segoe UI';
+    font-size: 1.1rem;
+    line-height: 1.869rem;
+    margin-bottom: 1.5rem;
+    color: rgb(128, 128, 128);
+}
+
+.icon {
+    color: white;
+    padding: 0.563rem;
+    border-radius: 1.063rem;
+    background-color: rgb(121, 113, 234);
+    font-size: 0.75rem;
+}
+
+.icon2 {
+    color: white;
+    padding: 0.563rem;
+    border-radius: 1.063rem;
+    background-color: rgb(121, 113, 234);
+    font-size: 0.875rem;
 }
